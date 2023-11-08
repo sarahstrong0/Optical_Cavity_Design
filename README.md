@@ -4,7 +4,7 @@ This lab project involved the design and simulation of a bow-tie optical cavity.
 
 ## 3.2 Optical Cavities
 
-### 3.2.1 Design a Bow-Tie Cavity
+### 3.2.1 Designed a Bow-Tie Cavity
 
 #### Goals Achieved
 
@@ -19,7 +19,7 @@ This lab project involved the design and simulation of a bow-tie optical cavity.
 - **Mirror Selection**: Chose from available planar and concave mirrors, considering their back-side polish quality for input/output coupling.
 - **Cavity Linewidth**: Opted for a larger free spectral range by making the cavity as short as possible while staying within the stability range.
 
-#### Tasks
+#### Process
 
 (a) Decided on the mirror types and their spacing.  
 (b) Used ABCD matrices to ensure the cavity is stable.  
@@ -27,7 +27,7 @@ This lab project involved the design and simulation of a bow-tie optical cavity.
 (d) Calculated the cavity's Free Spectral Range (FSR).  
 (e) Using the manufacturer’s specifications, calculated the cavity finesse, quality, bounce number, and linewidth.
 
-### 3.2.2 Mode Matching into The Cavity
+### 3.2.2 Mode Matched into The Cavity
 
 To maximize the amount of light in the TEM<sub>0,0</sub> mode, 'mode-matching' is crucial. This process involves configuring the input laser beam to match the mode of the optical cavity.
 
@@ -35,7 +35,7 @@ To maximize the amount of light in the TEM<sub>0,0</sub> mode, 'mode-matching' i
 
 Designed an optical system, potentially using a two-lens telescope, to match the q-parameter of your beam as closely as possible to the q-parameter of your cavity at the cavity waist.
 
-#### Steps
+#### Process
 
 - Developed Python code to define general ABCD matrices for lenses and free space to propagate your q’s.
 - Iteratively tried different lens configurations to approach the optimal solution.
